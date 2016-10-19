@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="CH10_V5_data" version="1.3.0" audacityversion="2.1.1" sel0="0.6138362551" sel1="0.6138362551" vpos="0" h="0.0000000000" zoom="615.7994038993" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<timetrack name="Time Track" height="135" minimized="0" rangelower="0.900000000000" rangeupper="1.100000000000" displaylog="0" interpolatelog="1">
+		<envelope numpoints="7">
+			<controlpoint t="0.008071871366" val="1.060902237892"/>
+			<controlpoint t="0.424317433848" val="1.059689879417"/>
+			<controlpoint t="0.546933878610" val="0.980620145798"/>
+			<controlpoint t="1.013199043560" val="0.980620145798"/>
+			<controlpoint t="1.066440394575" val="1.063909769058"/>
+			<controlpoint t="1.537545682346" val="1.062790751457"/>
+			<controlpoint t="1.702109858210" val="0.965116262436"/>
+		</envelope>
+	</timetrack>
+	<wavetrack name="CH5-48db-4s" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="109713">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d57.au" len="109713" min="-0.336334" max="0.276093" rms="0.036873"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="15">
+				<controlpoint t="0.424317433848" val="1.000000000000"/>
+				<controlpoint t="0.424322433848" val="0.013888895512"/>
+				<controlpoint t="0.424327433848" val="0.000000100000"/>
+				<controlpoint t="0.548547252883" val="0.083333313465"/>
+				<controlpoint t="0.550160627156" val="1.138888835907"/>
+				<controlpoint t="1.011585669287" val="1.000000000000"/>
+				<controlpoint t="1.011590669287" val="0.027777791023"/>
+				<controlpoint t="1.095481131493" val="0.000000100000"/>
+				<controlpoint t="1.100326254312" val="1.000000000000"/>
+				<controlpoint t="1.552066050804" val="0.986111104488"/>
+				<controlpoint t="1.558519547897" val="0.000000100000"/>
+				<controlpoint t="1.558524547897" val="0.000000100000"/>
+				<controlpoint t="1.706949981030" val="0.013888895512"/>
+				<controlpoint t="1.708563355303" val="1.291666746140"/>
+				<controlpoint t="1.861833911256" val="1.277777791023"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="CH5-48db-4s" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="109713">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009ba.au" len="109713" min="-0.344116" max="0.277527" rms="0.037196"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="15">
+				<controlpoint t="0.424317433848" val="1.000000000000"/>
+				<controlpoint t="0.424322433848" val="0.013888895512"/>
+				<controlpoint t="0.424327433848" val="0.000000100000"/>
+				<controlpoint t="0.548547252883" val="0.083333313465"/>
+				<controlpoint t="0.550160627156" val="1.138888835907"/>
+				<controlpoint t="1.011585669287" val="1.000000000000"/>
+				<controlpoint t="1.011590669287" val="0.027777791023"/>
+				<controlpoint t="1.095481131493" val="0.000000100000"/>
+				<controlpoint t="1.100326254312" val="1.000000000000"/>
+				<controlpoint t="1.552066050804" val="0.986111104488"/>
+				<controlpoint t="1.558519547897" val="0.000000100000"/>
+				<controlpoint t="1.558524547897" val="0.000000100000"/>
+				<controlpoint t="1.706949981030" val="0.013888895512"/>
+				<controlpoint t="1.708563355303" val="1.291666746140"/>
+				<controlpoint t="1.861833911256" val="1.277777791023"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="4" height="73" minimized="0" isSelected="0">
+		<label t="0.0016133743" t1="0.4259308081" title="Digital"/>
+		<label t="0.5517740014" t1="1.0131990436" title="Audio"/>
+		<label t="1.1003212543" t1="1.5520660508" title="Editing"/>
+		<label t="1.7101767296" t1="2.4862097550" title="Fundamentals"/>
+	</labeltrack>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22050">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d55.au" len="22050" min="-0.499792" max="0.49983" rms="0.09878"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

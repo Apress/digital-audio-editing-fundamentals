@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="CH10_V4_data" version="1.3.0" audacityversion="2.1.1" sel0="0.0000000000" sel1="2.4878231293" vpos="0" h="0.0000000000" zoom="619.8189822537" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="CH5-48db-4s" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="22050" gain="1.0" pan="0.3">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="54857">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004ee.au" len="54857" min="-0.340356" max="0.276738" rms="0.037033"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="4" height="73" minimized="0" isSelected="0">
+		<label t="0.0016133743" t1="0.4259308081" title="Digital"/>
+		<label t="0.5517740014" t1="1.0131990436" title="Audio"/>
+		<label t="1.1003212543" t1="1.5520660508" title="Editing"/>
+		<label t="1.7101767296" t1="2.4862097550" title="Fundamentals"/>
+	</labeltrack>
+	<timetrack name="Time Track" height="135" minimized="0" rangelower="0.900000000000" rangeupper="1.100000000000" displaylog="0" interpolatelog="1">
+		<envelope numpoints="7">
+			<controlpoint t="0.008071871366" val="1.060902237892"/>
+			<controlpoint t="0.424317433848" val="1.059689879417"/>
+			<controlpoint t="0.546933878610" val="0.980620145798"/>
+			<controlpoint t="1.013199043560" val="0.980620145798"/>
+			<controlpoint t="1.103548002858" val="1.062790751457"/>
+			<controlpoint t="1.537545682346" val="1.062790751457"/>
+			<controlpoint t="1.702109858210" val="0.965116262436"/>
+		</envelope>
+	</timetrack>
+</project>

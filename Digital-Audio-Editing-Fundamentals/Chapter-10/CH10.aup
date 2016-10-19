@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="CH10_data" version="1.3.0" audacityversion="2.1.1" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="619.8189822537" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<timetrack name="Time Track" height="100" minimized="0" rangelower="0.900000000000" rangeupper="1.100000000000" displaylog="0" interpolatelog="1">
+		<envelope numpoints="0"/>
+	</timetrack>
+	<wavetrack name="CH5-48db-4s" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="109713">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d57.au" len="109713" min="-0.336334" max="0.276093" rms="0.036873"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="CH5-48db-4s" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="109713">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009ba.au" len="109713" min="-0.344116" max="0.277527" rms="0.037196"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="4" height="73" minimized="0" isSelected="0">
+		<label t="0.0000000000" t1="0.4210906853" title="Digital"/>
+		<label t="0.5550007500" t1="1.0131990436" title="Audio"/>
+		<label t="1.1035480029" t1="1.5472259280" title="Editing"/>
+		<label t="1.7166302267" t1="2.4684626380" title="Fundamentals"/>
+	</labeltrack>
+</project>
